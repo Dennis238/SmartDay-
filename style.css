@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn{
+  padding: 1rem 2rem;
+  border-radius: 0;
+}
+.btnLunes{
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.btnViernes{
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.btnDescarga{
+  background-color: #D1D1D1;
+  border-radius: 3rem;
+  position: absolute;
+  left: 5rem;
+}
+.barraFinanzas{
+  width: 100%;
+}
+
+#barrasStats{
+  width: 500%;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+#categories{
+  position: absolute;
+  left: 18rem;
+  top: 35rem;
+}
+
+#container {
+  margin-top: 10rem;
+  width: 25%;
+}
+#wheelOfLife {
+  display: block;
+  position: relative;
+  max-width: 450px;
+  margin: auto;
+}
+
+.barraSemana{
+  margin-top: 3rem;
+  text-align: center;
+  position: absolute;
+padding-bottom: 30rem;
+}
+
+
+.triangle {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  transition: 0.7s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.triangle {
+  fill-opacity: 0.8;
+}
+
+#categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+p {
+  text-align: justify;
+  max-width: var(--input-width);
+}
